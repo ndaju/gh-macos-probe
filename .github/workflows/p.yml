@@ -2,6 +2,6 @@ name: probe
 on: [push, workflow_dispatch]
 jobs:
   p:
-    runs-on: macos-14
+    runs-on: macos-latest
     steps:
       - run: echo "macOS runner works"; sw_vers
